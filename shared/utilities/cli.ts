@@ -5,7 +5,7 @@ import type { Argv } from 'yargs';
 
 export const cli = (name: string, description: string): Argv => {
   return yargs(hideBin(process.argv))
-    .scriptName(`my.release-butler:${name}`)
+    .scriptName(`play.github-actions:${name}`)
     .help('help')
     .alias('help', 'h')
     .strict()

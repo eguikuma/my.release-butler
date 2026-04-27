@@ -1,4 +1,4 @@
-# my.release-butler
+# play.github-actions
 
 ## 概要
 
